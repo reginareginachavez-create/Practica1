@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "Cabaret";
+    src: url("cabaret_voltaire.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Kristen";
+    src: url("KristenCurlyYOFF.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Valeria";
+    src: url("ValeriaBoldGrunge.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Jesus";
+    src: url("Jesus Frank.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Zoete";
+    src: url("Zoete Dromen.otf") format("opentype");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    font-size: 100px;
+    color: rgb(0,234,90);
+    text-shadow: 5px 5px 0px #00eeff;
+    font-family: "Cabaret";
+}
+
+a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: black;
+    color: white;
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    border: #00eeff dotted 5px;
+    border-radius: 0px 50px 50px 0px;
+    box-shadow: 0px 5px 0px yellow;
+    transition: transform 0.3s ease;
+}
+
+a:nth-of-type(5n+1) {
+    font-family: "Cabaret";
+}
+
+a:nth-of-type(5n+2) {
+    font-family: "Kristen";
+}
+
+a:nth-of-type(5n+3) {
+    font-family: "Valeria";
+}
+
+a:nth-of-type(5n+4) {
+    font-family: "Jesus";
+}
+
+a:nth-of-type(5n+5) {
+    font-family: "Zoete";
+}
+
+a:hover {
+    animation: rebote 0.6s ease;
+    background: #222;
+    color: #00eeff;
+}
+
+@keyframes rebote {
+    0% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: translateY(-15px);
+    }
+
+    50% {
+        transform: translateY(5px);
+    }
+
+    75% {
+        transform: translateY(-8px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
