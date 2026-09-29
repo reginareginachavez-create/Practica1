@@ -1,0 +1,128 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: radial-gradient(circle, rgb(40, 120, 105) 0%, rgb(215, 170, 55) 100%);
+}
+
+div{
+  width: 200px;
+  height: 200px;
+  border: 5px solid #d8e2e8;
+  margin: 10px auto;
+}
+
+#c1{
+  background: #c7cdd1;
+}
+
+#c2{
+  background: #d94b67;
+}
+
+#c3{
+  background: #007f68;
+}
+
+#c4{
+  background: #18bfa3;
+}
+
+#c5{
+  background: #35d9c3;
+}
+
+#c6{
+  background: #d7b83f;
+}
+
+#c7{
+  background: rgb(32, 105, 190);
+}
+
+#c8{
+  background: rgb(232, 92, 116);
+}
+
+#c9{
+  background: rgb(18, 145, 116);
+}
+
+#c10{
+  background: linear-gradient(90deg, rgb(20, 178, 157) 0%, rgb(44, 102, 196) 50%, rgb(105, 214, 198) 100%);
+}
+
+#c11{
+  background: linear-gradient(90deg, rgb(221, 55, 72) 0%, rgb(246, 174, 48) 50%, rgb(221, 55, 72) 100%);
+}
+
+#c12{
+  background: linear-gradient(90deg, rgb(7, 111, 91) 0%, rgb(30, 170, 137) 50%, rgb(8, 76, 119) 100%);
+}
+
+#c13{
+  background: linear-gradient(0deg, rgba(30, 194, 177, 1) 0%, rgba(66, 119, 207, 1) 100%);
+}
+
+#c14{
+  background: linear-gradient(0deg, rgb(198, 166, 56) 0%, rgb(237, 218, 112) 100%);
+}
+
+#c15{
+  background: linear-gradient(0deg, rgb(221, 67, 105) 0%, rgb(244, 142, 163) 100%);
+}
+
+#c16{
+  background: radial-gradient(circle, rgba(214, 225, 232, 1) 0%, rgba(104, 132, 151, 1) 100%);
+}
+
+#c17{
+  background: radial-gradient(circle, rgb(32, 111, 196) 0%, rgb(15, 45, 105) 100%);
+}
+
+#c18{
+  background: radial-gradient(circle, rgba(230, 65, 91, 1) 0%, rgb(113, 19, 64) 100%);
+}
+
+#c19{
+  background-color: hsl(166, 72%, 38%);
+}
+
+#c20{
+  background-color: hsl(198, 85%, 65%);
+}
+
+#c21{
+  background-color: hsl(218, 70%, 25%);
+}
+
+#c22{
+  background: hwb(165 5% 25%);
+}
+
+#c23{
+  background: hwb(205 10% 35%);
+}
+
+#c24{
+  background: hwb(48 25% 20%);
+}
+
+#c25{
+  background: rgba(25, 190, 158, 0.7);
+}
+
+#c26{
+  background: rgba(38, 105, 210, 0.65);
+}
+
+#c27{
+  background: rgba(218, 55, 82, 0.65);
+}
+
